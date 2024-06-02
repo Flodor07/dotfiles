@@ -137,3 +137,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+alias renderdoc="/home/florian/renderdoc_1.33/bin/qrenderdoc"
