@@ -114,7 +114,8 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="$PATH:/opt/nvim-linux64/bin"
+
+export PATH="$PATH:/home/florian/nvim.appimage"
 
 
 eval "$(zoxide init --cmd cd zsh)"
@@ -138,3 +139,4 @@ case ":$PATH:" in
 esac
 # pnpm end
 alias renderdoc="/home/florian/renderdoc_1.33/bin/qrenderdoc"
+alias zig="/home/florian/zig-linux-x86_64-0.14.0-dev.1930+4a2a0f50c/zig"
